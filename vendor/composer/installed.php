@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '5c8bb77178fccf0b0b5f3b6d88af659905e36fa5',
+        'reference' => '2025720d9ba197e720f84b9ec308f7d694565ae1',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -209,6 +209,15 @@
             'install_path' => __DIR__ . '/../../web/modules/contrib/address',
             'aliases' => array(),
             'reference' => '8.x-1.9',
+            'dev_requirement' => false,
+        ),
+        'drupal/admin_toolbar' => array(
+            'pretty_version' => '3.0.2',
+            'version' => '3.0.2.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/admin_toolbar',
+            'aliases' => array(),
+            'reference' => '3.0.2',
             'dev_requirement' => false,
         ),
         'drupal/aggregator' => array(
@@ -523,6 +532,15 @@
                 0 => '9.2.5',
             ),
         ),
+        'drupal/ctools' => array(
+            'pretty_version' => '3.7.0',
+            'version' => '3.7.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/ctools',
+            'aliases' => array(),
+            'reference' => '8.x-3.7',
+            'dev_requirement' => false,
+        ),
         'drupal/datetime' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -564,6 +582,15 @@
             'replaced' => array(
                 0 => '9.2.5',
             ),
+        ),
+        'drupal/field_group' => array(
+            'pretty_version' => '3.2.0',
+            'version' => '3.2.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/field_group',
+            'aliases' => array(),
+            'reference' => '8.x-3.2',
+            'dev_requirement' => false,
         ),
         'drupal/field_layout' => array(
             'dev_requirement' => false,
@@ -661,6 +688,15 @@
                 0 => '9.2.5',
             ),
         ),
+        'drupal/link_attributes' => array(
+            'pretty_version' => '1.11.0',
+            'version' => '1.11.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/link_attributes',
+            'aliases' => array(),
+            'reference' => '8.x-1.11',
+            'dev_requirement' => false,
+        ),
         'drupal/locale' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -757,6 +793,15 @@
                 0 => '9.2.5',
             ),
         ),
+        'drupal/pathauto' => array(
+            'pretty_version' => '1.8.0',
+            'version' => '1.8.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/pathauto',
+            'aliases' => array(),
+            'reference' => '8.x-1.8',
+            'dev_requirement' => false,
+        ),
         'drupal/quickedit' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -775,7 +820,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '5c8bb77178fccf0b0b5f3b6d88af659905e36fa5',
+            'reference' => '2025720d9ba197e720f84b9ec308f7d694565ae1',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
@@ -867,6 +912,15 @@
             'replaced' => array(
                 0 => '9.2.5',
             ),
+        ),
+        'drupal/token' => array(
+            'pretty_version' => '1.9.0',
+            'version' => '1.9.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/token',
+            'aliases' => array(),
+            'reference' => '8.x-1.9',
+            'dev_requirement' => false,
         ),
         'drupal/toolbar' => array(
             'dev_requirement' => false,
